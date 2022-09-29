@@ -1,0 +1,10 @@
+create table customer
+(
+Caccount int primary key not null auto_increment,
+cname varchar(25),
+email varchar(40) default null unique,
+password int default null, 
+balance int default null ,
+mobile varchar(10),
+address varchar(25)
+);
